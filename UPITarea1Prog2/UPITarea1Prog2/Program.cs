@@ -10,7 +10,7 @@ namespace UPITarea1Prog2
     {
         static void Main(string[] args)
         {
-            int opcion = 0
+            int opcion = 0;
             do
             {
                 Console.WriteLine("1 - Ejercicio 1");
