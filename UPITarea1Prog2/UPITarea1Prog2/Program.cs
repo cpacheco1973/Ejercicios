@@ -18,8 +18,16 @@ namespace UPITarea1Prog2
                 Console.WriteLine("3 - Ejercicio 3");
                 Console.WriteLine("4 - Ejercicio 4");
                 Console.WriteLine("Digite una opcion");
-                opcion = int.Parse(Console.ReadLine()); 
+                opcion = int.Parse(Console.ReadLine());
 
+                switch (opcion)
+                {
+                    case 1: break;
+                    case 2: break;
+                    case 3: break;
+                    default:
+                        break;
+                }
 
             } while (opcion != 4);
         }
